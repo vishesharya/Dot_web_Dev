@@ -1,0 +1,164 @@
+        /* linear Gradient */
+        /* syntax : background-image: linear-gradient(direction,color1,color2,color3,...); */
+        /*Default Direction */
+
+#Default_dir{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(blue,black);
+}
+
+         /* !-- Specific Direction --> */
+     
+         /* <!-- Top to Bottom --> */
+#bottom{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom,blue,red);
+}
+
+          /* Bottom to Top  */
+
+#Top{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to top,blue,red);
+}
+
+        /* Left to right */
+#right{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to right,blue,red);
+}
+
+        /* right to left */
+#left{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to left,blue,red);
+}
+
+       /* Top left to bottom right */
+#bottom-right{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom right,blue,red);
+}
+
+         /* Top right to bottom left */
+#bottom-left{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom left,blue,red);
+}
+
+        /* Bottom left to top right  */
+
+#top-right{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to top right,blue,red);
+}
+
+        /* Bottom right to top Left */
+
+#top-left{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(to top left,blue,red);
+}
+
+
+      /* Using angle */
+#deg{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(30deg,blue,red);
+
+}
+
+      /* using transprancy */
+
+#trans{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    background-image: linear-gradient(rgba(255,0,0,.2),rgba(0,0,255,1));
+}
+
+    /* radial gradient */
+
+#radial{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    background-image: radial-gradient(circle,black,blue,red,orange,yellow);
+}
+
+
+    /* conic gradient */
+
+#conic{
+    height: 400px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    background-image: conic-gradient(yellow,blue,red,yellow,blue,red,yellow);
+}
+
+
+#conic-B{
+    height: 700px;
+    width: 700px;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-image: conic-gradient(yellow,blue,red,yellow,blue,red,yellow);
+}
